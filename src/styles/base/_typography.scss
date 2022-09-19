@@ -1,0 +1,13 @@
+:root {
+  --ff-primary: "Inter", sans-serif;
+
+  --ff-heading: var(--ff-primary);
+  --fw-heading: 700;
+  --ff-body: var(--ff-primary);
+  --fw-body: 400;
+}
+
+body {
+  font-family: var(--ff-body);
+  font-weight: var(--fw-body);
+}

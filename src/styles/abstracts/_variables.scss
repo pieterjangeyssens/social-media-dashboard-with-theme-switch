@@ -1,0 +1,11 @@
+$breakpoints: (
+  "tablet-portrait-up": (
+    min-width: 31.25rem,
+  ),
+  "tablet-landscape-up": (
+    min-width: 46.875rem,
+  ),
+  "desktop-up": (
+    min-width: 62.5rem,
+  ),
+);
