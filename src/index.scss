@@ -4,4 +4,7 @@
 @use "./styles/base/typography" as *;
 @use "./styles/base/colors" as *;
 @use "./styles/base/base" as *;
+@use "./styles/components/header" as *;
+@use "./styles/components/toggle" as *;
+@use "./styles/layout/containers" as *;
 @use "./styles/abstracts/utilities" as *;

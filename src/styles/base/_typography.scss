@@ -5,9 +5,33 @@
   --fw-heading: 700;
   --ff-body: var(--ff-primary);
   --fw-body: 400;
+
+  --fs-300: clamp(0.8rem, 0.14vw + 0.77rem, 0.89rem);
+  --fs-400: clamp(1rem, 0.29vw + 0.93rem, 1.19rem);
+  --fs-500: clamp(1.25rem, 0.51vw + 1.12rem, 1.58rem);
+  --fs-600: clamp(1.56rem, 0.84vw + 1.35rem, 2.11rem);
+  --fs-700: clamp(1.95rem, 1.32vw + 1.62rem, 2.81rem);
+  --fs-800: clamp(2.44rem, 2.01vw + 1.94rem, 3.75rem);
+  --fs-900: clamp(3.05rem, 2.99vw + 2.3rem, 5rem);
 }
 
 body {
   font-family: var(--ff-body);
   font-weight: var(--fw-body);
+}
+
+h1 {
+  font-size: var(--fs-600);
+  font-weight: var(--fw-heading);
+}
+
+h2 {
+  font-size: var(--fs-600);
+  font-weight: var(--fw-heading);
+}
+
+p {
+  font-size: var(--fs-300);
+  font-weight: var(--fw-heading);
+  color: var(--clr-font-accent);
 }
